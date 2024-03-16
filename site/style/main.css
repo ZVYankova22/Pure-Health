@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Slackside+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Slackside+One&display=swap');
+body{
+    background-color: rgba(219, 219, 219, 0.877);
+}
+.one{
+    position: absolute;
+    background-color: rgb(248, 191, 200);
+    top:90px;
+    left:150px;
+    right:150px;
+    height: 2500px;
+    border-radius: 25px;
+}
+ .name{
+     position: absolute;
+     left:100px;
+     top:-160px;
+     font-size: 160px;;
+     z-index: 4;
+     font-family: "Playfair Display SC", serif;
+ }   
+ .name_two{
+    position: absolute;
+   left:260px;
+   top:100px;
+   font-size: 80px;;
+    z-index: 5;
+    font-family: "Parisienne", cursive;
+
+ }
+ .meal{
+    position: absolute;
+    z-index: 5;
+    width: 50%;
+    left:300px;
+ }
+ .proteins{
+position: absolute;
+width: 20%;
+top:1050px;
+background-color: rgba(77, 54, 54, 0.877);
+z-index: 7;
+left:100px;
+height: 250px;
+border-radius: 10px;
+ }
+ .proteins:hover{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.548);
+     transition: all 0.1s ease 0.1s;
+ }
+
+
+ .fats{
+    position: absolute;
+width: 20%;
+top:1050px;
+background-color: rgba(77, 54, 54, 0.877);
+z-index: 7;
+left:502px;
+height: 250px;
+border-radius: 10px;
+ }
+ .fats:hover{
+    box-shadow: 4px 4px 4px 4px rgba(78, 77, 77, 0.548);
+    transition: all 0.1s ease 0.1s;
+ }
+ .carbohydrates{
+    position: absolute;
+    width: 20%;
+    top:1050px;
+    background-color: rgba(77, 54, 54, 0.877);
+    z-index: 7;
+    left:920px;
+    height: 250px;
+    border-radius: 10px;
+ }
+ .carbohydrates:hover{
+    box-shadow: 4px 4px 4px 4px rgba(78, 77, 77, 0.548);
+    transition: all 0.1s ease 0.1s;
+ }
+ .proteins_img{
+    position: absolute;
+    width:253px; ;
+    background-color: rgba(77, 54, 54, 0.877);
+    z-index: 7;
+    
+    height: 120px;
+    border-radius: 10px;
+
+ }
+ .proteins_text{
+    position: absolute;
+    z-index: 8;
+    color: azure;
+    top:120px;
+    left:10px;
+    right: 10px;
+ }
+ .fats_img{
+    position: absolute;
+    width:253px; ;
+    background-color: rgba(77, 54, 54, 0.877);
+    z-index: 7;
+    
+    height: 120px;
+    border-radius: 10px; 
+ }
+ .fats_text{
+    position: absolute;
+    z-index: 8;
+    color: azure;
+    top:120px;
+    left:10px;
+    right: 10px; 
+ }
+ .carbohydrates_img{
+    position: absolute;
+    width:253px; ;
+    background-color: rgba(77, 54, 54, 0.877);
+    z-index: 7;
+    
+    height: 120px;
+    border-radius: 10px; 
+ }
+ .carbohydrates_text{
+    position: absolute;
+    z-index: 8;
+    color: azure;
+    top:120px;
+    left:10px;
+    right: 10px; 
+ }
+ .nutritions{
+     position: absolute;
+     top:900px;
+     left:490px;
+     font-size: 40px;
+     z-index: 9;
+     font-family: "Parisienne", cursive;
+ }
+
+ .riceLine{
+    position: absolute;
+    width:190px;
+    rotate: 130deg ;
+    z-index: 10;
+    border:1px solid black;
+    top:260px;
+    left:620px;
+ }
+
+ .meatLine{
+    position: absolute;
+    width:190px;
+    rotate: 130deg ;
+    z-index: 10;
+    border:1px solid black;
+    top:400px;
+    left:780px;
+ }
+
+ .brocolliLine{
+    position: absolute;
+    width:190px;
+    rotate: 40deg ;
+    z-index: 10;
+    border:1px solid black;
+    top:760px;
+    left:760px;
+ }
+
+ .lemonLine{
+    position: absolute;
+    width:190px;
+    rotate: 140deg ;
+    z-index: 10;
+    border:1px solid black;
+    top:660px;
+    left:230px;
+ }
+
+ .chart1 {
+    /* First chart */
+    position: absolute;
+    top: 1430px;
+    left: 100px;
+    z-index: 5;
+  }
+ 
+  .chart-heading1 {
+    /* First chart heading style */
+    font-family: "Rubik", sans-serif;
+    color: rgb(196, 190, 190);
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+  }
+ 
+  .chart-container1 {
+    /* First chart container style */
+    width: 1000px;
+    z-index: 5;
+  }
+ 
+  .stats1 {
+    /* First statement style */
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    width: 1000px;
+    box-shadow: 0 4px 12px -2px rgba(83, 78, 78, 0.3);
+    border-radius: 20px;
+    padding: 8px 32px;
+    color: rgb(3, 48, 71);
+    transition: all 400ms ease;
+    background-color: rgb(238, 238, 238);
+  }
+ 
+  .stats1 ul {
+   
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .stats1 ul li {
+    font-size: 16px;
+    margin: 20px 20px;
+    text-transform: uppercase;
+  }
+ 
+  .stats1 {
+   
+    font-weight: 700;
+    color: #e63946;
+  }
