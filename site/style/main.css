@@ -15,6 +15,37 @@ body{
     bottom: 50px;;
     box-shadow: 2px 2px 2px 2px #34d1aa;
 }
+
+
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .topnav {
+   overflow: hidden;
+  
+ }
+ 
+ .topnav a {
+   float: right;
+   color: #333030;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ .topnav a:hover {
+   background-color: rgb(248, 191, 200);
+   color: black;
+ }
+ 
+ .topnav a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+ 
  .name{
      position: absolute;
      left:100px;

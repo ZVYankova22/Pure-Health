@@ -7,9 +7,17 @@
     <p class="name">Pure</p>
     <p class="name_two">Health</p>
     <body>
+      <div class="topnav">
+        <a href="#nutrition">Nutritions</a>
+        <a href="#graphic">Graphic</a>
+        <a href="#challenge">Challenge</a>
+      </div>
+
+
+
         <div class="one"></div>
         <img class="meal" src="img/meal.png">
-        <p class="nutritions">Essential Nutrients</p>
+        <p class="nutritions" id="nutrition">Essential Nutrients</p>
         <div class="proteins">
             <img class="proteins_img" src="img/protein.jpg">
             <p class="proteins_text">Proteins <br><br> a naturally occurring,complex substance that consists of amino acid residues joined by peptide bonds</p>
@@ -31,7 +39,7 @@
  
   <div class="chart1">
     <h2 class="chart-heading1"></h2>
-    <div class="stats1">
+    <div class="stats1" id="graphic">
       <div class="chart-container1">
         <canvas id="lineChart"></canvas>
       </div>
@@ -45,7 +53,7 @@
  
 
 <div class="all">
-  <div class="container">
+  <div class="container" id="challenge">
     <h2>User Information</h2>
     <form id="userForm">
         <label for="weight">Weight (kg):</label>
