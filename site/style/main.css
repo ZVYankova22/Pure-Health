@@ -348,3 +348,118 @@ input[type="submit"]:hover {
    left:-30px;
   
 }
+
+@media only screen and (max-width: 768px) {
+   body {
+     height: auto;
+   }
+   .one {
+     height: auto;
+     top: 60px;
+     left: 20px;
+     right: 20px;
+   }
+   .name {
+     top: 30px;
+     left: 20px;
+     font-size: 80px;
+   }
+
+   .name_two{
+      top:130px;
+      left:80px;
+      font-size: 60px;
+   }
+   .meal {
+     width: 80%;
+     left: 10%;
+   }
+
+   .riceLine{
+      top:250px;
+      left:270px;
+      width:180px;
+   }
+
+   .meatLine{
+      top:340px;
+      left:450px;
+      width:180px;
+      rotate:110deg;
+   }
+
+   .brocolliLine{
+      top:700px;
+      left: 400px;
+      width:150px;
+      rotate:80deg;
+   }
+
+   .lemonLine{
+      top:700px;
+      left:130px;
+      width:180px;
+      rotate:70deg;
+   }
+
+   .nutritions{
+      left:200px;
+      top:950px;
+   }
+   .proteins{
+     width: 30%;
+     height:280px;
+     left:10px;
+   }
+
+   .proteins_img{
+      width:203px;
+      left: 0;
+   }
+
+   .fats{
+      width: 30%;
+      height:280px;
+      left: 240px;
+   }
+
+   .fats_img{
+      width:203px;
+      left: 0;
+   }
+   
+   .carbohydrates{
+      width: 30%;
+      height:280px;
+      left: 470px;
+   }
+
+   .carbohydrates_img{
+      width:203px;
+      left: 0;
+   }
+   .chart1 {
+     left: 10px;
+     width:470px;
+   }
+
+   .stats1{
+      width: 600px;
+   }
+
+   .chart-container1{
+      width:700px;
+      height:300px;
+   }
+   
+   .headphones {
+     top: 2100px;
+     left: -10px;
+     width:300px;
+   }
+
+   .container{
+      left:300px;
+      top:1840px;
+   }
+}
