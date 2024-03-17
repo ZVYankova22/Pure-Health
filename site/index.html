@@ -1,86 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../site/style/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>My Website</title>
+    
 </head>
 <body>
-<p class="name">Pure</p>
-<p class="name_two">Health</p>
-<div class="topnav">
-    <a href="#nutrition">Nutritions</a>
-    <a href="#graphic">Graphic</a>
-    <a href="#challenge">Challenge</a>
-</div>
-
-<div class="one"></div>
-<img class="meal" src="img/meal.png">
-<p class="nutritions" id="nutrition">Essential Nutrients</p>
-<div class="proteins">
-    <img class="proteins_img" src="img/protein.jpg">
-    <p class="proteins_text">Proteins <br><br> a naturally occurring, complex substance that consists of amino acid residues joined by peptide bonds</p>
-</div>
-<div class="fats">
-    <img class="fats_img" src="img/fats.jpg">
-    <p class="fats_text">Fats<br><br> nutrients in food that the body uses to build cell membranes, nerve tissue (including the brain), and hormones. </p>
-</div>
-<div class="carbohydrates">
-    <img class="carbohydrates_img" src="img/Carbohydrates.jpg">
-    <p class="carbohydrates_text">Carbohydrates<br><br>  Along with proteins and fats, carbohydrates are one of three main nutrients found in foods and drinks. </p>
-</div>
-
-<hr class="riceLine">
-<hr class="meatLine">
-<hr class="brocolliLine">
-<hr class="lemonLine">
-
-<div class="chart1">
-    <h2 class="chart-heading1"></h2>
-    <div class="stats1" id="graphic">
-        <div class="chart-container1">
-            <canvas id="lineChart"></canvas>
-        </div>
+    <div class="container">
+        <h1>Pure Health</h1>
+        <p>Healthy Choices, Lifelong Benefits.</p>
+        <a href="signup.html" class="btn">Sign Up</a>
+        <a href="login.html" class="btn">Log In</a>
+        
     </div>
-</div>
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
-<script src="../site/js/main.js"></script>
-
-<div class="all">
-    <div class="container" id="challenge">
-        <h2>User Information</h2>
-        <form id="userForm">
-            <label for="weight">Weight (kg):</label>
-            <input type="number" id="weight" name="weight" placeholder="Enter your weight" required min="5" max="300">
-
-            <label for="height">Height (cm):</label>
-            <input type="number" id="height" name="height" placeholder="Enter your height" required min="40" max="280">
-
-            <label for="age">Age (years):</label>
-            <input type="number" id="age" name="age" placeholder="Enter your age" required min="0" max="120">
-
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender" required>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-
-            <label for="physicalActivity">Physical Activity (hours/week):</label>
-            <input type="number" id="physicalActivity" name="physicalActivity" placeholder="Enter hours per week" required min="0" max="168">
-
-            <label for="sleepDuration">Sleep Duration (hours/night):</label>
-            <input type="number" id="sleepDuration" name="sleepDuration" placeholder="Enter hours per night" required>
-
-            <label for="stressLevel">Stress Level (1-10):</label>
-            <input type="number" id="stressLevel" name="stressLevel" placeholder="Enter stress level (1-10)" min="1" max="10" required>
-
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-</div>
-<img class="headphones" src="img/slushalki-removebg-preview.png">
-
+    <img class="first" src="img/nachalna-removebg-preview.png">
 </body>
 </html>
