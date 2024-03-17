@@ -1,12 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Slackside+One&display=swap');
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color:  rgba(163, 159, 159, 0.877);
     text-align: center;
+    font-family: "Playfair Display SC", serif;
+}
+.one{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    background-color: rgb(248, 191, 200);
+    top:100px;
+    left:120px;
+    border-radius: 10px;;
 }
 .container {
-    max-width: 400px;
+    position: relative;
+    z-index: 2;
+    right: -200px;
+    width: 40%;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -33,7 +47,7 @@ input[type="password"]:focus {
 input[type="submit"] {
     width: calc(100% - 20px);
     padding: 10px;
-    background-color: #007bff;
+    background-color: rgb(212, 169, 175);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -41,5 +55,12 @@ input[type="submit"] {
     transition: background-color 0.3s;
 }
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: rgb(248, 191, 200);
+}
+.cvete{
+    z-index: 10;
+    position: absolute;
+    left:100px;
+    width: 30%;
+    top:10px;
 }
